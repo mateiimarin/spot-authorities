@@ -42,7 +42,7 @@ if($db) {
 
     if(carSnap.data().start_park) {
         isParked.value = true;
-        car.value.start_park = carSnap.data().start_park;
+        car.value.start_park = carSnap.data().start_park.toDate();
         car.value.parking =  carSnap.data().parking;
     }
     
