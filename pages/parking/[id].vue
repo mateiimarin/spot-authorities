@@ -19,7 +19,7 @@
                     <div class="ml-auto">{{ car.parking }}</div>
                 </div>
             </div>
-            <div class="text-center"> The owner of this car didn't pay for parking</div>
+            <div class="text-center" v-if="!isParked"> The owner of this car didn't pay for parking</div>
         </ClientOnly>
     </div>
 </template>
