@@ -1,7 +1,7 @@
 <template>
     <div class="min-w-full min-h-full">
         <div class="h-screen w-screen fixed z-[100] flex items-center justify-center"> 
-            <div class="h-16 w-64 overlay-shadow z-[100] rounded-lg border-[4px] border-gray-200">
+            <div class="h-20 w-64 overlay-shadow z-[100] rounded-lg border-[4px] border-gray-200">
                 <input v-model="plate" class="h-full outline-none text-center font-main text-3xl font-bold transition-all duration-500 bg-gray-200" :class="plate ? 'w-full px-4' : 'w-0'">
             </div>
         </div>
