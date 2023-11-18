@@ -1,5 +1,5 @@
 <template>
-  <div id="spotApp">
+  <div id="spotApp" class="bg-white">
     <NuxtPage/>
   </div>
 </template>
